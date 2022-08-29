@@ -76,11 +76,11 @@
         </div>
 
 
-         <!-- Search  -->
-         <section class="flex justify-center items-center my-5 w-5/6 mx-auto">
+        <!-- Search  -->
+        <section class="flex justify-center items-center my-5 w-5/6 mx-auto">
             <input id="input-search" type="text" placeholder="Search a player by name"
                 class="input input-bordered w-full max-w-xl rounded-r-none" />
-            <button class="btn btn-primary rounded-l-none px-16" id="btn-search">Button</button>
+            <button class="btn btn-primary rounded-l-none px-16" id="btn-search">Search</button>
         </section>
     </header>
 
@@ -89,19 +89,20 @@
 
 
     <main>
-       
+
 
 
 
 
 
         <!-- Player Search  -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 px-10 py-7" id="search-container">
-            
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 px-10 py-7"
+            id="search-container">
+
         </div>
         <!-- team  -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 px-10 py-7" id="team-container">
-            
+
         </div>
 
 
@@ -120,6 +121,30 @@
     <section id="progress" class="hidden">
         <progress class="absolute inset-0 mx-auto my-auto progress progress-primary w-1/4"></progress>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- The button to open modal -->
+    <input type="checkbox" id="my-modal" class="modal-toggle" />
+    <div class="modal text-center" id="modal-body">
+        
+    </div>
+
+
+
+
 
 
     <script src="js/dark.js"></script>
