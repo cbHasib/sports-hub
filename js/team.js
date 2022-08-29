@@ -135,4 +135,4 @@ document.getElementById('input-search').addEventListener('keypress', function(ev
 })
 
 
-// loadTeam();
+loadTeam();
